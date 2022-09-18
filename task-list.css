@@ -1,0 +1,71 @@
+
+button,
+input,
+select,
+textarea {
+  padding: 3px;
+  border: 2px solid #888;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+button {
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ded;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.inputarea {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  display:inline;
+}
+
+.inputarea .row {
+  margin: 10px 0;
+}
+
+.inputarea button {
+  padding: 3px 20px;
+  background-color: #44f;
+  font-size: 1.2em;
+}
+
+.inputarea #tasktitle,
+#taskdetail {
+  width: 500px;
+}
+
+.tasklistarea table {
+  width: 100%;
+}
+
+.tasklistarea th {
+  background-color: #277;
+  color: #fff;
+}
+
+.tasklistarea button {
+  display: block;
+  margin: 0 auto;
+  background-color: #444;
+}
